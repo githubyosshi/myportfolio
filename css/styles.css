@@ -49,3 +49,18 @@ header li > a {
 header li > a:hover {
   color: royalblue;
 }
+
+section {
+  text-align: center;
+}
+
+/* marginの上下が重なった場合は大きい方に相殺される */
+section h1 {
+  font-weight: normal;
+  margin-bottom: 8px;
+}
+
+section p {
+  margin-top: 0;
+  font-size: 14px;
+}
