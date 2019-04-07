@@ -127,6 +127,26 @@ section li {
   text-align: left;
 }
 
+.about p {
+  text-decoration: none;
+}
+
+.language {
+  text-decoration: none;
+}
+
+.career_history {
+  text-decoration: none;
+}
+
+.license {
+  text-decoration: none;
+}
+
+.license a {
+  text-decoration: none;
+}
+
 footer {
   width: 400px;
   margin: 0 auto 60px;
@@ -163,8 +183,13 @@ footer p {
 }
 
 .about {
-  width: 400px;
-  margin: 0 auto 60px;
+  /*width: 600px;*/
+  width: auto;
+  margin: 0 60px 60px;
+}
+
+.about header {
+  margin: 0 60px 0;
 }
 
 .about p {
